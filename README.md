@@ -29,7 +29,6 @@ Você pode acessar o projeto online através do link abaixo:
 Desenvolvido por Paulo Borges como projeto de portfólio.
 
 ---
-        }
-    </script>
+
 </body>
 </html>
