@@ -169,8 +169,8 @@
             <h2>🔗 Fontes Oficiais e Ajuda</h2>
             <div class="card">
                 <p>Para informações atualizadas e seguras, acesse:</p>
-                <a href="https://antigolpe.febraban.org.br/" target="_blank" class="link-fonte">➔ Febraban: Portal Anti-Golpes</a>
-                <a href="https://www.bcb.gov.br/estabilidadefinanceira/segurancapix" target="_blank" class="link-fonte">➔ Banco Central: Segurança no Pix</a>
+                <a href="https://portal.febraban.org.br/AntiFraude" target="_blank" class="link-fonte">➔ Febraban: Portal Anti-Golpes</a>
+                <a href="https://www.bcb.gov.br/estabilidadefinanceira/pix-seguranca" target="_blank" class="link-fonte">➔ Banco Central: Segurança no Pix</a>
                 <a href="https://www.gov.br/governodigital/pt-br/seguranca-e-protecao-de-dados" target="_blank" class="link-fonte">➔ Portal Gov.br: Segurança Digital</a>
             </div>
         </section>
