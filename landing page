@@ -64,7 +64,7 @@
             color: #ffdd44;
             text-decoration: none;
             display: block;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             font-weight: bold;
         }
         .link-fonte:hover { text-decoration: underline; color: #ffffff; }
@@ -93,7 +93,7 @@
                     <li><strong>Nunca dê senhas:</strong> Nem por telefone, nem por mensagem, para ninguém.</li>
                     <li><strong>Ligue para confirmar:</strong> Se pedirem dinheiro, ligue para o número que você já conhece.</li>
                     <li><strong>Bancos não pedem Pix:</strong> O banco nunca liga pedindo para você transferir dinheiro.</li>
-                    <li><strong>Peça ajuda:</strong> Na dúvida, pare tudo e chame um filho, neto ou amigo.</li>
+                    <li><strong>Peça ajuda:</strong> Na dúvida, pare tudo e chame um filho, neto ou amigo de confiança.</li>
                 </ol>
             </div>
         </section>
@@ -103,15 +103,12 @@
             <h2>📱 Golpe no WhatsApp</h2>
             <div class="card">
                 <h3>Exemplos Reais para Ficar de Olho:</h3>
-                
                 <div class="example-box">
                     "Oi vó, é o seu neto! Troquei de número porque o outro caiu na água. Preciso pagar uma conta de R$ 450 agora e meu banco bloqueou. Consegue me ajudar?"
                 </div>
-
                 <div class="example-box">
                     "Oi pai, tudo bem? O aplicativo do meu banco está em manutenção. Você consegue fazer esse Pix para mim? Amanhã cedo eu te devolvo!"
                 </div>
-
                 <div class="example-box">
                     "Oi, sou eu! Estou na farmácia e esqueci minha carteira. Preciso pagar os remédios agora, consegue me mandar R$ 120 pelo Pix? É urgente!"
                 </div>
@@ -124,15 +121,12 @@
             <h2>💰 Golpe no Pix</h2>
             <div class="card">
                 <h3>Exemplos de Mentiras Comuns:</h3>
-
                 <div class="example-box">
                     "Olá, mandei um Pix de R$ 500 sem querer para você, era do meu aluguel! Por favor, devolva agora nessa outra chave aqui, senão serei despejado!"
                 </div>
-
                 <div class="example-box">
                     "Aqui é da Central de Segurança do Banco. Detectamos uma invasão. Para proteger seu saldo, transfira tudo para esta 'Conta de Segurança' agora."
                 </div>
-
                 <div class="example-box">
                     "Parabéns! Você ganhou um prêmio de R$ 2.000. Para liberar o valor, pague a taxa de transferência de R$ 35 via Pix para este código."
                 </div>
@@ -163,7 +157,7 @@
         <!-- CHECKLIST -->
         <section class="card">
             <h2>🛡️ Meu Escudo Digital</h2>
-            <p>Marque o que você já fez:</p>
+            <p>Marque o que você já faz:</p>
             <label><input type="checkbox" class="check-seguranca" onchange="atualizarEscudo()"> Tenho senha no meu WhatsApp.</label><br>
             <label><input type="checkbox" class="check-seguranca" onchange="atualizarEscudo()"> Meu celular tem senha na tela.</label><br>
             <label><input type="checkbox" class="check-seguranca" onchange="atualizarEscudo()"> Eu nunca clico em links de SMS.</label><br>
@@ -171,12 +165,13 @@
             <h3 id="status-escudo" style="margin-top: 20px;">Nível de Proteção: 0%</h3>
         </section>
 
-        <!-- FONTES -->
+        <!-- FONTES ATUALIZADAS -->
         <section id="fontes">
-            <h2>🔗 Fontes Oficiais</h2>
+            <h2>🔗 Fontes Oficiais e Ajuda</h2>
             <div class="card">
-                <a href="https://meubolsofeliz.com.br/" target="_blank" class="link-fonte">➔ Febraban: Meu Bolso Feliz</a>
-                <a href="https://www.bcb.gov.br/meubc/faqs/s/pix-seguranca" target="_blank" class="link-fonte">➔ Banco Central: Segurança no Pix</a>
+                <p>Para informações atualizadas e seguras, acesse:</p>
+                <a href="https://antigolpe.febraban.org.br/" target="_blank" class="link-fonte">➔ Febraban: Portal Anti-Golpes</a>
+                <a href="https://www.bcb.gov.br/estabilidadefinanceira/segurancapix" target="_blank" class="link-fonte">➔ Banco Central: Segurança no Pix</a>
                 <a href="https://www.gov.br/governodigital/pt-br/seguranca-e-protecao-de-dados" target="_blank" class="link-fonte">➔ Portal Gov.br: Segurança Digital</a>
             </div>
         </section>
@@ -190,10 +185,10 @@
         function responderQuiz(escolha) {
             const f = document.getElementById('feedback-quiz');
             if (escolha) {
-                f.innerText = "❌ CUIDADO! Isso é golpe. Use sempre a função 'Devolver' do banco, nunca transfira para outra conta.";
+                f.innerText = "❌ CUIDADO! Isso é golpe. Use sempre a função 'Devolver' do banco dentro do app oficial.";
                 f.style.color = "#ff4444";
             } else {
-                f.innerText = "✅ EXCELENTE! Você percebeu o risco. Sempre desconfie de pedidos de devolução em contas diferentes.";
+                f.innerText = "✅ EXCELENTE! Você percebeu o risco. Sempre desconfie de pedidos de devolução fora do sistema do banco.";
                 f.style.color = "#ffdd44";
             }
         }
@@ -203,7 +198,7 @@
             const textoOriginal = "URGENTE: Sua conta será BLOQUEADA agora! Clique no link abaixo e informe sua SENHA para evitar o cancelamento.";
             const novoTexto = textoOriginal.replace(/URGENTE|BLOQUEADA|SENHA|Clique/g, '<span class="perigo-destaque">$&</span>');
             c.innerHTML = novoTexto;
-            document.getElementById('feedback-simulador').innerHTML = "⚠️ <strong>Atenção:</strong> Palavras que causam medo ou pedem senha são sinais de golpe!";
+            document.getElementById('feedback-simulador').innerHTML = "⚠️ <strong>Atenção:</strong> Palavras que causam medo ou pedem senha são sinais claros de golpe!";
         }
 
         function atualizarEscudo() {
