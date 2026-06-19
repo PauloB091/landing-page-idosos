@@ -3,7 +3,7 @@
 Este é um projeto de **Landing Page Educativa** focada em acessibilidade para o público da terceira idade. O objetivo é ensinar, de forma simples e interativa, como identificar e se prevenir de golpes comuns no WhatsApp e no Pix.
 
 ## 🌟 Diferenciais do Projeto
-Este projeto foi desenvolvido com foco total em **UX (User Experience) para Idosos**, aplicando:
+Este projeto foi desenvolvido com foco em Idosos, aplicando:
 - **Alto Contraste:** Cores fortes para facilitar a leitura.
 - **Tipografia Adaptada:** Fontes grandes e legíveis.
 - **HTML5 Semântico:** Estrutura organizada para leitores de tela.
@@ -26,4 +26,4 @@ Você pode acessar o projeto online através do link abaixo:
 > **[CLIQUE AQUI PARA VER O SITE NO AR](https://paulob091.github.io/landing-page-idosos/landing-page.html)**
 
 ---
-Desenvolvido por **[Seu Nome]** como projeto de portfólio para Desenvolvedor Front-end Júnior.
+Desenvolvido por Paulo Borges como projeto de portfólio para QA Júnior.
