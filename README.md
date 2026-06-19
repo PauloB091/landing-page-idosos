@@ -1,7 +1,3 @@
-Para o **README.md** funcionar corretamente, você deve copiar o texto abaixo e colar no arquivo **sem colocar nada antes ou depois**.
-
-Aqui está uma versão otimizada e profissional para o seu portfólio:
-
 # 🚨 Guia de Segurança Digital para Idosos
 
 Este é um projeto de **Landing Page Educativa** focada em acessibilidade para o público da terceira idade. O objetivo é ensinar, de forma simples e interativa, como identificar e se prevenir de golpes comuns no WhatsApp e no Pix.
