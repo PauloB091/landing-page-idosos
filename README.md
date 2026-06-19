@@ -23,8 +23,7 @@ Este projeto foi desenvolvido com foco total em **UX (User Experience) para Idos
 
 ## 📱 Como visualizar
 Você pode acessar o projeto online através do link abaixo:
-> **[CLIQUE AQUI PARA VER O SITE NO AR]([https://seu-usuario.github.io/seu-repositorio/](https://paulob091.github.io/landing-page-idosos/))**
-*(Substitua o link acima pelo link que o GitHub Pages te deu)*
+> **[CLIQUE AQUI PARA VER O SITE NO AR](https://paulob091.github.io/landing-page-idosos/)**
 
 ---
 Desenvolvido por **[Seu Nome]** como projeto de portfólio para Desenvolvedor Front-end Júnior.
